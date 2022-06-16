@@ -1,0 +1,18 @@
+<div class="topnav">
+  <a class="active" href="/">Etna</a>
+  <div *ngIf="!isLog">
+  <a href="/login">Login</a>
+  </div>
+  <div *ngIf="!isLog">
+  <a href="/register">Register</a>
+  </div>
+  <div *ngIf="isLog">
+  <a href="/profile">Profile</a>
+</div>
+<div *ngIf="isLog">
+  <a href="/product">Products</a>
+</div>
+<div *ngIf="isLog">
+  <a href="/login">Logout</a>
+</div>
+</div>

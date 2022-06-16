@@ -1,0 +1,24 @@
+<div class="col-4">
+
+  <div class="form-outline mb-4">
+    <input [(ngModel)]="addr.road" type="text" class="form-control" id="form2Example1" >
+    <label class="form-label" for="form2Example1">Road</label>
+
+  </div>
+  <div class="form-outline mb-4">
+    <input [(ngModel)]="addr.postalCode" type="text" class="form-control" id="form2Example1" >
+    <label class="form-label" for="form2Example1">Postal Code</label>
+  </div>
+  <div class="form-outline mb-4">
+    <input [(ngModel)]="addr.city" type="text" class="form-control" id="form2Example1" >
+    <label class="form-label" for="form2Example1">City</label>
+  </div>
+  <div class="form-outline mb-4">
+    <input [(ngModel)]="addr.country" type="text" class="form-control" id="form2Example1" >
+    <label class="form-label" for="form2Example1">Country</label>
+  </div>
+
+
+  <button class="btn btn-primary btn-block col-12" (click)="Edit()">Edit Address</button>
+
+</div>
