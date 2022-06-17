@@ -13,6 +13,6 @@
   <a href="/product">Products</a>
 </div>
 <div *ngIf="isLog">
-  <a href="/login">Logout</a>
+  <a (click)="logout()" href="/login">Logout</a>
 </div>
 </div>

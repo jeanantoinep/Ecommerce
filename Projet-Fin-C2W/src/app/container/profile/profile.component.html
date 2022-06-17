@@ -4,11 +4,11 @@
       <div class = "form-outline mb-4">
         <label class="form-label" for="form2Example1">Username</label>
         <input [(ngModel)]="user.username" type="text" class="form-control" id="form2Example1" >
-         <button class="btn btn-success btn-sm btn-block col-2" (click)="editUsername">Edit</button>
+         <button class="btn btn-success btn-sm btn-block col-2"  (click)="editUsername()">Edit</button>
 
       </div>
       <div class="form-outline mb-4">
-         <button type="button" class="btn btn-primary btn-block col-6"(click)="goToAddingAddress">+ Add address</button>
+         <button type="button" class="btn btn-primary btn-block col-6" (click)="goToAddingAddress()">+ Add address</button>
       </div>
       <div class="container">
          <label class = "form-label" for="form2Example1"></label>
@@ -30,7 +30,7 @@
               <button type="button" class="btn btn-primary btn-block col-12" (click)="edit(addr)">Edit</button>
             </div>
             <div class="col">
-              <button type="button" class="btn btn-danger btn-block col-12" (click)="delete(addr, i)">Delete</button>
+              <button type="button" class="btn btn-danger btn-block col-12" href="/profile" (click)="delete(addr, i)">Delete</button>
             </div>
           </div>
         </div>

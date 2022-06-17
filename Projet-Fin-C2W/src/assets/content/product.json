@@ -1,26 +1,26 @@
 [
   {
     "_id": 46556532315,
-    "price": "9.99",
-    "link": "assets/download(1).jpg",
-    "description": "This is a description",
+    "price": "599.99",
+    "link": "https://image.shutterstock.com/image-photo/white-game-console-controller-on-600w-1815548618.jpg",
+    "description": "Playstation 4 Console",
     "currency": "$",
-    "title":"ea"
+    "title":"PS4"
   },
   {
     "_id": 125735478785,
-    "price": "19.99",
-    "link": "assets/download(2).jpg",
-    "description": "This is a description",
+    "price": "199.99",
+    "link": "https://image.shutterstock.com/image-photo/hybrid-video-game-console-switch-600w-1689251077.jpg",
+    "description": "Nintendo Switch console",
     "currency": "$",
-    "title":"dolore"
+    "title":"Nintendo Switch"
   },
   {
     "_id": 125735478785,
     "price": "15.99",
-    "link": "assets/download(3).jpg",
-    "description": "This is a description",
+    "link": "https://image.shutterstock.com/image-photo/light-blue-gaming-controller-isolated-600w-1039119442.jpg",
+    "description": "Playstation Controller",
     "currency": "$",
-    "title":"dolore"
+    "title":"Controller"
   }
 ]

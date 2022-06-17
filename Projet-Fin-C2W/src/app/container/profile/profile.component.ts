@@ -36,12 +36,14 @@ this._userService.getAddress().subscribe(data=>{
 }
 
 )}
-goToAddingAddress(){
-  this.router.navigateByUrl('/address')
-}
-  edit(addr:Address){
-    this.router.navigate(['/editAddress'],{queryParams:{id:addr.id}})
+  goToAddingAddress(){
+
+
+    this.router.navigate(['/address'])
   }
+    edit(addr:Address){
+      this.router.navigate(['/editAddress'],{queryParams:{id:addr.id}})
+    }
 
   delete(addr:Address, index:number){
     this._userService.DeleteAddress(addr.id).subscribe(data=>{

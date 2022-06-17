@@ -1,13 +1,13 @@
 
 .topnav {
-  background-color: rgb(141, 227, 132);
+  background-color: rgb(47, 59, 110);
   overflow: hidden;
 }
 
 
 .topnav a {
   float: left;
-  color: #2ba8b8;
+  color: #fdfdfd;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -22,6 +22,6 @@
 
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #306ccc;
   color: white;
 }
