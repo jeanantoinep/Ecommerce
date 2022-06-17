@@ -1,0 +1,19 @@
+version: '3.2'
+
+services:
+ back:
+  build: ./
+  ports:
+        - "4242:4242"
+  networks:
+      - backend
+
+ db:
+  build: ./DB
+  networks:
+      - backend
+  volumes:
+        - "./mysql/data:/data/db"
+
+networks:
+  backend:
